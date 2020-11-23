@@ -6,7 +6,7 @@ title: Karthik Bhaskar
 superuser: true
 
 # Role/position
-role: Machine Learning Researcher | Software Engineer
+role: Machine Learning Researcher | Data Scientist | Software Engineer
 
 # Organizations/Affiliations
 organizations:
