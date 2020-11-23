@@ -13,7 +13,7 @@ organizations:
 - name: University of Toronto
   url: "https://www.utoronto.ca/"
   
-- name: Bector Institute
+- name: Vector Institute
   url: "https://vectorinstitute.ai/"
 
 
