@@ -9,6 +9,7 @@ featured: true
 
 tags:
   - Reinforcement Learning
+  - Deep Learning
   - PyTorch
   - Python
   - Policy Based Methods
