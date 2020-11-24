@@ -21,7 +21,7 @@ image:
   filename: featured.gif
   focal_point: Smart
   preview_only: false
-  caption: Trained Tennis Agent using MADDPG
+  caption: Trained Agent using DDPG
  
 ---
 
