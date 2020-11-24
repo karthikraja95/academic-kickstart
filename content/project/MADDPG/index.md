@@ -8,7 +8,10 @@ draft: false
 featured: true
 
 tags:
-  - Deep Reinforcement Learning
+  - Reinforcement Learning
+  - Deep Learning
+  - PyTorch
+  - Python
   - Actor Critic Methods
   - Unity ML
   - Multi Agent Deep Deterministic Policy Gradient (MADDPG)
