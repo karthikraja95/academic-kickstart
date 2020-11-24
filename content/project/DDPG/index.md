@@ -27,7 +27,7 @@ image:
 links:
   - icon_pack: fab
     icon: github
-    name: View Code 
+    name: View Code/Project 
     url: 'https://github.com/karthikraja95/Deep-Reinforcement-Learning-Continuous-Control'
  
 ---
