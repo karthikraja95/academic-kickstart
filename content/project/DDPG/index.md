@@ -22,6 +22,12 @@ image:
   focal_point: Smart
   preview_only: false
   caption: Trained Agent using DDPG
+  
+links:
+  - icon_pack: fab
+    icon: github
+    name: View Code 
+    url: 'https://github.com/karthikraja95/Deep-Reinforcement-Learning-Continuous-Control'
  
 ---
 
