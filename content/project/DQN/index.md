@@ -5,7 +5,7 @@ layout: post
 date: 2020-07-30 12:38:00 -0700
 
 draft: false
-featured: true
+featured: false
 
 tags:
   - Reinforcement Learning
