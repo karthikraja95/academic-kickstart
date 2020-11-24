@@ -22,7 +22,7 @@ image:
   filename: featured.gif
   focal_point: Smart
   preview_only: false
-  caption: Trained Agent using DDPG
+  caption: Trained Agent using DQN
   
 links:
   - icon_pack: fab
