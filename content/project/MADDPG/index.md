@@ -22,6 +22,12 @@ image:
   focal_point: Smart
   preview_only: false
   caption: Trained Tennis Agent using MADDPG
+  
+links:
+  - icon_pack: fab
+    icon: github
+    name: View Code 
+    url: 'https://github.com/karthikraja95/DeepRL-Collaboration-Competition'
  
 ---
 
