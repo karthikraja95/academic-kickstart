@@ -1,3 +1,4 @@
+---
 title: "Autonomous System Simulation"
 subtitle: aUToronto
 layout: post
@@ -7,15 +8,15 @@ draft: false
 featured: true
 
 tags:
-  - ROS
-  - C++
-  - Matlab
-  - Linux
+  - Deep Reinforcement Learning
+  - Actor Critic Methods
+  - Unity ML
+  - Multi Agent Deep Deterministic Policy Gradient (MADDPG)
   
 external_link: 
 
 image:
-  filename: featured.png
+  filename: featured.gif
   focal_point: Smart
   preview_only: false
   caption: Portrait with our self driving car - Zeus
