@@ -16,7 +16,7 @@ abstract = "In this paper, several Collaborative Filtering (CF) approaches with 
 abstract_short = "Deep Learning based End to End Recommendation System"
 
 # Is this a featured publication? (true/false)
-featured = true
+featured = false
 
 # Projects (optional).
 projects = ""
