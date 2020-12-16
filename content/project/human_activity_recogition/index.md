@@ -13,6 +13,7 @@ tags:
   - Python
   - Keras
   - LSTM
+  - NLP
   
   
   
