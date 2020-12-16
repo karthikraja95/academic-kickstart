@@ -24,7 +24,7 @@ image:
   filename: featured.png
   focal_point: Smart
   preview_only: false
-  caption: Reinforcement Learning Agents
+  #caption: Reinforcement Learning Agents
   
 links:
   - icon_pack: fab
