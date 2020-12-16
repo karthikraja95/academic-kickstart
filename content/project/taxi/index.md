@@ -13,6 +13,7 @@ tags:
   - Python
   - SQL
   - Ensemble Methods
+  - NLP
   
   
   
@@ -28,7 +29,7 @@ links:
   - icon_pack: fab
     icon: github
     name: View Code/Project 
-    url: 'https://github.com/karthikraja95/Human-Like-Chess-Engine'
+    url: 'https://github.com/karthikraja95/Taxi-Demand-Prediction'
  
 ---
 
