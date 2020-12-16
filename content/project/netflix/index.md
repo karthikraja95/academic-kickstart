@@ -16,6 +16,7 @@ tags:
   - Collaborative Filtering
   - Ensemble Methods
   - SVD
+  - Recommendation System
   
   
 external_link: 
