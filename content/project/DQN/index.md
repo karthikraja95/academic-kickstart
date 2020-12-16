@@ -9,7 +9,7 @@ featured: false
 
 tags:
   - Reinforcement Learning
-  - CNN
+  - Computer Vision
   - Deep Learning
   - PyTorch
   - Python
