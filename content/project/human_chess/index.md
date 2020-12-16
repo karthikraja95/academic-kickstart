@@ -12,6 +12,8 @@ tags:
   - Deep Learning
   - Python
   - PyTorch
+  - CNN
+  - KL Divergence
   
   
 external_link: 
