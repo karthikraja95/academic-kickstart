@@ -16,6 +16,7 @@ tags:
   - Random Forest
   - Ensemble Methods
   - SVM
+  - Visualization
   
   
 external_link: 
