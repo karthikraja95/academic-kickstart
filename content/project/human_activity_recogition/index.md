@@ -1,6 +1,6 @@
 ---
-title: "Human Like Chess Engine"
-subtitle: Deep Reinforcement Learning
+title: "Human Activity Recognition"
+subtitle: Deep Learning
 layout: post
 date: 2020-07-30 12:38:00 -0700
 
