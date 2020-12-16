@@ -8,7 +8,7 @@ authors = ["Karthik Bhaskar", "Deepa Kundur", "Yuri Lawryshyn"]
 # Publication type.
 # Legend:
 
-publication_types = ["2"]
+publication_types = ["1"]
 
 # Abstract and optional shortened version.
 abstract = "In this paper, several Collaborative Filtering (CF) approaches with latent variable methods were studied using user-item interactions to capture important hidden variations of the sparse customer purchasing behaviours. The latent factors are used to generalize the purchasing pattern of the customers and to provide product recommendations. CF with Neural Collaborative Filtering(NCF) was shown to produce the highest Normalized Discounted Cumulative Gain (NDCG) performance on the real-world proprietary dataset provided by a large parts supply company. Different hyperparameters were tested using Bayesian Optimization (BO) for applicability in the CF framework. External data sources like click-data and metrics like Clickthrough Rate (CTR) were reviewed for potential extensions to the work presented. The work shown in this paper provides techniques the Company can use to provide product recommendations to enhance revenues, attract new customers, and gain advantages over competitors."
