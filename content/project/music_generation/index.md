@@ -14,6 +14,7 @@ tags:
   - Keras
   - LSTM
   - RNN
+  - NLP
   
   
 external_link: 
