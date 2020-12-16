@@ -17,7 +17,7 @@ tags:
   - Ensemble Methods
   - NLP
   - Recommendation System
-  
+  - Collaborative Filtering
   
 external_link: 
 
