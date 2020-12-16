@@ -9,6 +9,7 @@ featured: false
 
 tags:
   - Deep Learning
+  - CNN
   - PyTorch
   - Python
   - GAN
