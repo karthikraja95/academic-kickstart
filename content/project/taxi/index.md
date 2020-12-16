@@ -19,7 +19,7 @@ tags:
 external_link: 
 
 image:
-  filename: featured.png
+  filename: featured.gif
   focal_point: Smart
   preview_only: false
   #caption: Reinforcement Learning Agents
