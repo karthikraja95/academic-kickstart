@@ -10,6 +10,7 @@ featured: false
 tags:
   - Reinforcement Learning
   - Deep Learning
+  - CNN
   - PyTorch
   - Python
   - Actor Critic Methods
