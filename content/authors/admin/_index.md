@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'  # For a direct email link, use "mailto:karthikraja.kalaiselvibhaskar@mail.utoronto.ca".
+  link: mailto:karthikrajabk@gmail.com   # For a direct email link, use "mailto:karthikrajabk@gmail.com".
   
 - icon: github
   icon_pack: fab
