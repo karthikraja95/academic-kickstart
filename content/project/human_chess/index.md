@@ -12,7 +12,7 @@ tags:
   - Deep Learning
   - Python
   - PyTorch
-  - CNN
+  - Computer Vision
   - KL Divergence
   
   
