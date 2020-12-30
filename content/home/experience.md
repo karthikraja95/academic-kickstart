@@ -43,8 +43,8 @@ date_format = "Jan 2006"
 
  
   * Builta text classifier using Word Embedding, LSTM, and Transformers.
-  * CreatedaDiversity and Inclusion scorethat reflects employee experience within organizations.
-  * Designeda Deep Learning basedRecommendation Systemusing the diversity and inclusion score.
+  * Created a Diversity and Inclusion score that reflects employee experience within organizations.
+  * Designed a Deep Learning based Recommendation System using the diversity and inclusion score.
   """
  [[experience]]
   title = "Graduate Machine Learning Researcher"
