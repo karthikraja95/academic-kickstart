@@ -22,10 +22,10 @@ bio: Machine Learning Researcher | Software Engineer | Vector Institute | Univer
 
 interests:
 - Deep Learning
+- Private Trustworthy Machine Learning
 - Deep Reinforcement Learning
 - Natural Language Processing
 - Recommendation Systems
-- Healthcare
 
 education:
   courses:
