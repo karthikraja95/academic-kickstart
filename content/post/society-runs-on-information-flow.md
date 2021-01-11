@@ -76,4 +76,16 @@ Sometimes the necessary information flows don't exist at all (trusting a strange
 
 Stopping all information flow and locking all data is not the solution to the privacy issue. This would prevent good use of data (think medical care, climate research) and also make undesirable behaviour easier (money laundering, lack of accountability). Maximizing privacy could lead to a lack of transparency!
 
+## The Privacy-Transparency Pareto Frontier
 
+![This is the privacy-transparency trade-off. More of one means less of the other.](https://github.com/karthikraja95/kbhaskar/blob/master/content/post/images/society-runs-on-information-flow/privacy-transperancy.PNG)
+
+We used to have a classic [Pareto trade-off](https://en.wikipedia.org/wiki/Pareto_efficiency) between privacy and transparency. You had to decide whether you share information at the cost of privacy (point **A** in the chart). Or whether you keep information private, but at the cost of transparency (**B**). The question is: how can we move the frontier of this trade-off and have more of both at the same time?
+
+![With new privacy-enhancing technologies, we can have more of both privacy and transparency.](https://github.com/karthikraja95/kbhaskar/blob/master/content/post/images/society-runs-on-information-flow/PT-dilemma.PNG)
+
+With new technologies, we can actually move the pareto frontier. Notice that point B in this chart has the same amount of privacy as in the first chart, but has a lot more transparency.
+
+We don't have a zero-sum game anymore! This will affect every industry handling valuable, sensitive, or private data.
+
+Thanks to these technologies, in the future governments won't have to choose between preserving the privacy of their citizens or protect national security, they can do both. Researchers won't have to decide whether or not to share their data, they can have the benefits from both. Corporations currently often have to choose between the privacy of their users and the accuracy of their products and services, in the future they can have both.
