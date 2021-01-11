@@ -61,3 +61,19 @@ And even when your exact identity is not recoverable, data can be used for **tar
 Example: Anonymization works so badly, that the attackers can systematically exploit its weaknesses and make it as a business model. For example, couple of years ago Guardian post published an [article](https://www.theguardian.com/technology/2017/jan/10/medical-data-multibillion-dollar-business-report-warns) on **Your Private Medical Data is for Sale**. Several US company that buys anonymized health data and distributes **"market insights"** from it to insurance companies. They can then, for example, avoid selling insurance to high-risk communities like poor neighborhoods, where people are more likely to get sick.
 
 Also, read this article on [Strava](https://medium.com/strava-engineering/the-global-heatmap-now-6x-hotter-23fc01d301de) releasing an anonymized heatmap of network of athletes activities that revealed the location of US military bases. So, *privacy can be relevant not only on an individual level but on an organizational or even national security level.*
+
+## Privacy and Transparency Dilemmas
+
+Due to the potentially harmful use of data, we have to constantly make trade-offs and decide whether to share information, weighing the benefits and the risks.
+
+> A privacy dilemma is a trade-off whether or not to reveal information, where revealing that information causes some social good (like advances in medical research) but could also lead to harm (like the misuse of medical data).
+
+Privacy dilemmas have various costs. The most obvious is a privacy violation where data is shared in good faith but the information is misused. On the other hand, there are societal costs when information instead is kept secret: a failure to accomplish important outcomes of information flow (scientific progress, meaningful relationships, accountability).
+
+> A transparency dilemma is when someone is forced to make a decision without having access to the information they need to make it.
+
+Sometimes the necessary information flows don't exist at all (trusting a stranger to fix your tire), sometimes they exist but their content is not verified (online reviews).
+
+Stopping all information flow and locking all data is not the solution to the privacy issue. This would prevent good use of data (think medical care, climate research) and also make undesirable behaviour easier (money laundering, lack of accountability). Maximizing privacy could lead to a lack of transparency!
+
+
