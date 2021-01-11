@@ -35,3 +35,29 @@ Example: Google Street View: why are people having trouble with Google taking ph
 > [Contextual Integrity](https://en.wikipedia.org/wiki/Contextual_Integrity): sharing the same information might be private in one context, but not in another context. It’s about achieving appropriate information flow.
 
 Example: My face is considered public information as soon as I leave the house, because anybody can see it. So why is facial recognition software so troubling? Not only because it could be misused (i.e., for mass surveillance), but because it is identification without my consent. The information flow is not triggered by me, but by whatever system is watching me.
+
+## Analogy: Data is Fire
+
+There are several analogies for Data like [Data is the New Oil](https://www.forbes.com/sites/forbestechcouncil/2019/11/15/data-is-the-new-oil-and-thats-a-good-thing/?sh=6b1e35e37304). A better analgoy would be [Data is Fire](https://ystrickler.medium.com/data-is-fire-92a110557ef8).
+
+- Data can be duplicated (Infinite timess!!!)
+- Data can help us prosper and solve problems
+- Data can cause irreparable damage if misused
+
+Data is like a double edge sword, its true for all kinds of data, not just senstive data like **healthcare data or financial data**.
+
+>  When I bring a topic like Privacy with my friends, they usually say *I don't have anything to hide, so why would I care about Privacy*. But, in my opinion that's not true - **Everything is a Private Data**.
+
+## Every Data is a Private Data
+
+Your grocery shopping list is boring, right? Not always. *You might not care now whether somebody knows you're buying bread.* But when you suddenly stop buying bread (and other carbs), it might be an indication of the diagnosis of diabetes. *Suddenly it's very private information that you might not want to share.*
+
+Well you can say, we can **annonymize the data**. Anonymization seems like the obvious solution to protect the identities of people in data, this does not work reliably in real-world data. *Thanks to the power of Machine Learning, even when names are removed from data, other features can be used to identify you.*
+
+And even when your exact identity is not recoverable, data can be used for **targeting**: As long as someone is able to reach you (via your browser, your email, your neighborhood, your university, etc ...), **your name is not at all necessary to do harm.**
+
+> **Annonymization** does not **WORK**
+
+Example: Anonymization works so badly, that the attackers can systematically exploit its weaknesses and make it as a business model. For example, couple of years ago Guardian post published an [article](https://www.theguardian.com/technology/2017/jan/10/medical-data-multibillion-dollar-business-report-warns) on **Your Private Medical Data is for Sale**. Several US company that buys anonymized health data and distributes **"market insights"** from it to insurance companies. They can then, for example, avoid selling insurance to high-risk communities like poor neighborhoods, where people are more likely to get sick.
+
+Also, read this article on [Strava](https://medium.com/strava-engineering/the-global-heatmap-now-6x-hotter-23fc01d301de) releasing an anonymized heatmap of network of athletes activities that revealed the location of US military bases. So, *privacy can be relevant not only on an individual level but on an organizational or even national security level.*
