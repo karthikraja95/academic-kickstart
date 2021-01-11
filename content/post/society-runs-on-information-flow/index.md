@@ -8,7 +8,6 @@ image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
-# Private AI - "Society Runs on Information Flows"
 
 The main topic of the article is the **privacy-transparency trade-off** and how it affects a huge number of issues. This article walks through some of the most important challenges to society and *identifies how the privacy-transparency trade-off underpins them*. Improving information flows, by solving this trade-off, can help us in many areas like disinformation, scientific innovation, and even democracy itself.
 
@@ -88,11 +87,11 @@ Stopping all information flow and locking all data is not the solution to the pr
 
 ## The Privacy-Transparency Pareto Frontier
 
-![This is the privacy-transparency trade-off. More of one means less of the other.](https://github.com/karthikraja95/kbhaskar/blob/master/content/post/images/society-runs-on-information-flow/privacy-transperancy.PNG)
+![This is the privacy-transparency trade-off. More of one means less of the other.](privacy-transperancy.PNG)
 
 We used to have a classic [Pareto trade-off](https://en.wikipedia.org/wiki/Pareto_efficiency) between privacy and transparency. You had to decide whether you share information at the cost of privacy (point **A** in the chart). Or whether you keep information private, but at the cost of transparency (**B**). The question is: how can we move the frontier of this trade-off and have more of both at the same time?
 
-![With new privacy-enhancing technologies, we can have more of both privacy and transparency.](https://github.com/karthikraja95/kbhaskar/blob/master/content/post/images/society-runs-on-information-flow/PT-dilemma.PNG)
+![With new privacy-enhancing technologies, we can have more of both privacy and transparency.](PT-dilemma.PNG)
 
 With new technologies, we can actually move the pareto frontier. Notice that point B in this chart has the same amount of privacy as in the first chart, but has a lot more transparency.
 
