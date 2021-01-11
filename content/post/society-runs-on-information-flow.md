@@ -89,3 +89,77 @@ With new technologies, we can actually move the pareto frontier. Notice that poi
 We don't have a zero-sum game anymore! This will affect every industry handling valuable, sensitive, or private data.
 
 Thanks to these technologies, in the future governments won't have to choose between preserving the privacy of their citizens or protect national security, they can do both. Researchers won't have to decide whether or not to share their data, they can have the benefits from both. Corporations currently often have to choose between the privacy of their users and the accuracy of their products and services, in the future they can have both.
+
+## Why We Need to Solve the Privacy-Transparency Trade-Off
+
+### Research is Constrained by Information Flows
+
+If there was a way to share data across institutions while making sure it remained private and was used for good, all areas of research would benefit. More data would be available, it would be available faster, and also: experiments could be replicated more easily.
+
+### Healthy Market Competition for Information Services
+
+Most services that handle your data will profit from locking you in. Because of privacy concerns they are inherently anti-competitive. More privacy restrictions can actually make it harder for new companies to compete (because you can't move your data from your old to the new provider).
+
+We need more interoperability between information service providers.
+
+> Interoperability means you can buy your shoes from one company and your socks from another. In information services it also means that you should be able to move to a different company and take your data with you.
+
+Example: Facebook actually started as a company that profited a lot from interoperability. One reason it gained popularity was that users from its established main competitor MySpace could connect their accounts with Facebook and still message with their friends on the old platform. Without this feature, probably less people would have switched to the new platform. This is called adversarial interoperability.
+
+> The [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (General Data Protection Regulation) was introduced in the EU in 2018 and has the aim to give individuals control over their personal data.
+
+The GDPR is considered a groundbreaking piece of legislation and it is being copied around the world.
+
+*EU citizens now have 7 rights over their data, including the right to be forgotten (a company has to delete all your personal data on request) and the right of access (on request, companies have to send you a copy of all data they have of you).*
+
+> Privacy is not only about preventing information from being shared. Sometimes satisfying privacy is about forcing companies to share or delete your data in a specific way or at a specific time.
+
+### Feedback Mechanisms & Information Flows
+
+We often rely on the opinions of others when we make our decisions. Which car do you buy, which surgeon do you choose for a surgery? But there are more feedback mechanisms. Elections, protests, Facebook likes, going to prison, boycotting, gossip, are all feedback mechanisms.
+
+> Feedback mechanism: Someone does something, and later gets positive or negative feedback from those affected by their actions.
+
+Feedback mechanisms help us understand how the world views our work, so we can do more good things and fewer bad things. They are essential to society's function and unfortunately, due to the privacy-transparency trade-off, many of them are quite broken. This is the case when feedback information is too sensitive or valuable to be shared.
+What does a broken feedback scenario look like?
+
+Examples:
+
+- **Medical care**: When you go for surgery, how good is your surgeon? Can you ask for reviews of previous patients, could you talk to previous nurses? And even if you could, could you talk to enough patients or nurses?
+- **Consumer products**: How do you know whether a product is any good? Amazon reviews are easy to fake, and the real ones come from only the most polarized users.
+- **Politics**: A multiple choice question between a few candidates every 4 years is a terrible feedback system for reviewing the legislature of the past 4 years.
+
+Most feedback information simply isn't collected, because it would be too personal to collect it.
+
+### New Market Incentives
+
+Today's incentives of companies are often misaligned with the well-being of their users.
+
+Example: Many online companies use attention (often called engagement) as their key metric. For some this intuitively makes sense, because their revenue is ad-driven. But even companies that run on a subscription model, like Netflix, do it. Netflix's former CEO Reed Hastings famously said they are competing with sleep (["And we’re winning!"](https://www.fastcompany.com/40491939/netflix-ceo-reed-hastings-sleep-is-our-competition)). The question is: why?
+
+One answer is that it's a readily available metric which is fine-grained and allows for optimization. Netflix's number of subscribers - which is the number they actually care about - is too coarse to use as a metric. Only if a movie was so good or so bad that it made users subscribe/unsubscribe, it would have a measurable effect.
+
+Attention as a metric does work and is probably not a problem when used at a small scale. But at large scale and taken to the extremes it can cause harm, see the Netflix/sleep example.
+
+Let's speculate about a better approach: Netflix could try to optimize their experience to improve the users' sleep. But how would they measure it and train an algorithm on it? Fitbits track sleeping patterns, but is it safe to share this data with Netflix? In general, these alternative metrics are called wellness metrics and can improve our lives.
+
+But we need to solve the privacy-transparency trade-off. And there are many more areas where privacy-transparency trade-off will make a huge difference
+
+- Data, Energy & the Environment
+- Democracy & Public Health Conversation
+- Safe Data Networks for Business, Governance and R&D
+- Conflict, Political Science & Information Flows
+- Disinformation & Information Flows (Example: Fake News)
+
+## Conclusion
+
+The privacy-transparency trade-off or even privacy in general is in service of a higher aim: creating information flows within society that create social good.
+
+> Privacy technology is not just about more privacy.
+
+Don't just look for use cases that scream "privacy". Instead, ask yourself: How can society accomplish its goals with less risk, higher accuracy, faster, and with better aligned incentives than ever before, through better flows of information.
+
+> Entrepreneurial opportunities, regulatory opportunities, investing opportunities: It’s not about hiding data; it’s about enabling specific information flows (and just these!) to maximize social good.
+
+*That is the promise of privacy-enhancing technology and has the potential to radically improve every aspect of how we share information.*
+
