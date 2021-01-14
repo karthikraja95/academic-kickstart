@@ -74,14 +74,30 @@ Many traditional SWE tools can be used to develop and deploy ML applications. Ho
 
 On the contrary, **ML systems are part code, part data. The last ten years trend shows that applications developed with the most/best data win (OpenAI's GPT3 and DALL-E).** Instead of focusing on improving ML algorithms, most companies will focus on improving their data. Because data can change quickly,*ML applications need to be adaptive to the changing environment, requiring faster development and deployment cycles.*
 
-*In traditional SWE, you only need to focus on testing and versioning your code. With ML, we have to test and version our data too, which's the hard part. How to version large datasets? How to know if a data sample is good or bad for your system? Not all data samples are equal -- some are more valuable to your model than others.*
+**In traditional SWE, you only need to focus on testing and versioning your code. With ML, we have to test and version our data too, which's the hard part. How to version large datasets? How to know if a data sample is good or bad for your system? Not all data samples are equal -- some are more valuable to your model than others.**
 
-*The size of ML models gives another challenge.* As of 2020, it's common for ML models to have hundreds of millions, if not billions, of parameters, which requires GBs of RAM and GPU to load them into memory. A few years from now, a billion parameters might seem normal.
+**The size of ML models gives another challenge.** As of 2020, it's common for ML models to have hundreds of millions, if not billions, of parameters, which requires GBs of RAM and GPU to load them into memory. A few years from now, a billion parameters might seem normal.
 
-*Monitoring and debugging these models in production is also non-trivial*. As ML models get more complex, coupled with the lack of visibility into their work, it’s hard to figure out what went wrong or be alerted quickly enough when things go wrong.
+**Monitoring and debugging these models in production is also non-trivial**. As ML models get more complex, coupled with the lack of visibility into their work, it’s hard to figure out what went wrong or be alerted quickly enough when things go wrong.
 
 Now, enough about the differences in ML and SWE. The good news is that these engineering challenges are being tackled at a tremendous pace. In 2018, when BERT first came out, people talked about how BERT was too big, too complex, and too slow to be practical. In 2021, BERT is just a few  lines of code with efficient libraries and almost used in every Natural Language Processing (NLP) tasks.
 
-How can we also use these techniques in our day to day life and build models into production at ease? Here are some of the problems facing ML production and we might want to think about?
+How can we also use these techniques in our day to day life and build models into production at ease? Here are some of the problems facing ML production and we might want to think about? Thanks to [Chip](https://twitter.com/chipro) for sharing the following amazing resources.
 
 
+- **Data testing**: How to test the usefulness and correctness of data? How to know if a sample is good or bad for your system?
+- **Data and model versioning**: How to version datasets and checkpoints? Line-to-line comparison like Git works for code but doesn’t work for datasets or model checkpoints. You can’t also naively make multiple copies of large datasets. How do you merge different versions of data? Example: [DVC](https://github.com/iterative/dvc).
+- **Monitoring**: How to know that your data distribution has shifted and you need to retrain your model? Example: [Dessa](https://www.dessa.com/).
+- **Data labeling**: How to quickly label the new data or re-label the existing data for the new model? Example: [Snorkel](https://www.snorkel.org/).
+- **CI/CD test**: How to run tests to make sure your model still works as expected after each change, since you can’t spend days waiting for it to train and converge? Example: [Argo](https://argoproj.github.io/).
+- **Deployment**: How to package and deploy a new model or replace an existing model? Example: [OctoML](https://octoml.ai/).
+- **Model compression**: How to compress an ML model to fit onto consumer devices? 
+- **Inference optimization**: How to speed up inference time for your models? Can we fuse operations together? Can we use lower precision? Making a model smaller might make its inference faster. Example: [TensorRT](https://developer.nvidia.com/tensorrt).
+- **Edge device**: Hardware designed to run ML algorithms fast and cheap. Example: [Coral SOM](https://coral.ai/products/som/).
+- **Privacy**: How to use user data to train your models while preserving their privacy? How to make your process GDPR-compliant? Example: [PySyft](https://github.com/OpenMined/PySyft).
+- **Data manipulation**: DataFrames designed for parallelization and compatible with GPUs as pandas doesn’t work on GPUs. Example: [Dask](https://github.com/dask/dask).
+- **Data format**: If your samples have many features and you only want to use a subset of them, using row-based data formats like CSV still requires you to load all features. Columnar file formats like PARQUET and ORC are optimized for that use case.
+
+### In conclusion, ML production sounds scarier at first, but with these tools, it is FUN!!!
+
+I hope this article is somewhat informative and helpful!!!
