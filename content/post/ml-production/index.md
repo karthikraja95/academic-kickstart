@@ -36,3 +36,8 @@ In research, we care more about how many samples we can process in a second (thr
 However, once we deploy our model into the real world, latency matters a lot. In 2009, [Google's experiments](https://services.google.com/fh/files/blogs/google_delayexp.pdf) demonstrated that increasing web search latency 100 to 400 ms reduces the daily number of searches per user by 0.2% to 0.6%. In 2019, [Booking.com](https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/) found that an increase of about 30% in latency cost about 0.5% in conversion rates.
 
 
+## 3. Data
+
+In ML Research, the datasets we work with are often **cleaned and well-formatted**, which allows us to focus on developing and training models. Research Datasets are **static** by nature so that the researchers can use them to benchmark new architectures and techniques. In research, we mostly work with **historical data**, and we won't often serve our models to users.
+
+In ML Production, there might be a case you don't have an excellent dataset to start with. Even if the data is available, it is **messy, noisy, unstructured and constantly shifting over time**. Annotated labels, if there are any, are **sparse, imbalanced, outdated, or incorrect**. Changing project or business requirements might require adding another label class or merging two existing label classes. If we work with users' data, we'll also have to think about **privacy and regulatory concerns**.
