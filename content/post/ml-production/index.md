@@ -22,3 +22,6 @@ Often, ML Research has one single objective: **model performance and achieving s
 - The **infrastructure team** wants to hold off the production line to update the infrastructure due to some security reasons.
 - The **manager** wants to maximize the margin, and one way to achieve it is to let go of the ML team. For example, [Airbnb](https://adage.com/article/cmo-strategy/airbnb-job-cuts-took-heavy-toll-marketers-designers-and-data-scientists/2256246) lays off several Data Scientists due to COVID-19 crisis.
 
+These objectives require different models, yet the stakeholders will have to collaborate to create a model that will satisfy all of them.
+
+Production having different objectives from the research is one reason why successful research projects might not always be used in production. Ensembling is a technique popular among the winners of many ML competitions, including the famed $1M Netflix Prize. It combines *"multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone."* While ensemble systems give a small improvement in performance, it might be too complex, error-prone to deploy, slower, and hard to interpret.
