@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Production, Machine Learning Research and Sofware Engineering"
+title: "Machine Learning Production, Machine Learning Research and Software Engineering"
 date: 2021-01-114
 math: true
 diagram: true
@@ -7,7 +7,7 @@ image:
   # placement: 3
   # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
-# Machine Learning Production Vs Machine Learning Research
+## Machine Learning Production Vs Machine Learning Research
 
 
 Most people who are experts in Machine Learning gained their experience through academia: taking courses, doing research and reading research papers. 
