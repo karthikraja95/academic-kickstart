@@ -25,3 +25,14 @@ Often, ML Research has one single objective: **model performance and achieving s
 These objectives require different models, yet the stakeholders will have to collaborate to create a model that will satisfy all of them.
 
 Production having different objectives from the research is one reason why successful research projects might not always be used in production. Ensembling is a technique popular among the winners of many ML competitions, including the famed $1M Netflix Prize. It combines *"multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone."* While ensemble systems give a small improvement in performance, it might be too complex, error-prone to deploy, slower, and hard to interpret.
+
+
+## 2. Computation - Training vs Inference
+
+**Most research prioritizes fast training whereas most production prioritizes fast inference.** Just to refresh our memory. **Latency** refers to the time it takes from receiving a query to returning the result. **Throughput** refers to how many queries are processed within a specific period of time. One corollary of this is that *research prioritizes high throughput whereas production prioritizes low latency.*
+
+In research, we care more about how many samples we can process in a second (throughput) and less about how long it takes for each sample to be processed (latency). We are willing to increase latency to increase throughput.
+
+However, once we deploy our model into the real world, latency matters a lot. In 2009, [Google's experiments](https://services.google.com/fh/files/blogs/google_delayexp.pdf) demonstrated that increasing web search latency 100 to 400 ms reduces the daily number of searches per user by 0.2% to 0.6%. In 2019, [Booking.com](https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/) found that an increase of about 30% in latency cost about 0.5% in conversion rates.
+
+
