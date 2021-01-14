@@ -7,6 +7,8 @@ image:
   # placement: 3
   # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
+## Machine Learning Production Vs Machine Learning Research
+
 
 Most people who are experts in Machine Learning gained their experience through academia: taking courses, doing research and reading research papers. 
 Most companies nowadays use Machine Learning, although it is still relatively new compared to traditional software engineering. 
@@ -41,3 +43,24 @@ However, once we deploy our model into the real world, latency matters a lot. In
 In ML Research, the datasets we work with are often **cleaned and well-formatted**, which allows us to focus on developing and training models. Research Datasets are **static** by nature so that the researchers can use them to benchmark new architectures and techniques. In research, we mostly work with **historical data**, and we won't often serve our models to users.
 
 In ML Production, there might be a case you don't have an excellent dataset to start with. Even if the data is available, it is **messy, noisy, unstructured and constantly shifting over time**. Annotated labels, if there are any, are **sparse, imbalanced, outdated, or incorrect**. Changing project or business requirements might require adding another label class or merging two existing label classes. If we work with users' data, we'll also have to think about **privacy and regulatory concerns**.
+
+## 4. Ethics and Fairness
+
+In my opinion, almost everyone or someone in our life might already be a victim of biased Machine Learning algorithms without even knowing it. For example:
+
+- Loan application might be rejected because the ML algorithm picks on your zip code, which incorporates biases about the socio-economic background. 
+- A resume might be ranked lower because the ranking system employers use picks on your name. For example, Bob can get more preference than Xin Lee.
+- The mortgage might get a higher interest rate because it relies partially on credit scores, which reward the rich and punish the poor. 
+
+[Other examples of ML biases in the real world](https://weaponsofmathdestructionbook.com/) are predictive policing algorithms, personality tests administered by potential employers, and college ranking.
+
+**ML algorithms don’t predict the future but encode the past, perpetuating the biases in the data and more.** When *ML algorithms are deployed at scale, they can discriminate against people at scale.* For example, A human might only make incorrect judgments about a few individuals at a time. In that case, an ML algorithm can make incorrect judgments about millions in split seconds.  [McKinsey & Company research in 2019](https://www.mckinsey.com/featured-insights/artificial-intelligence/tackling-bias-in-artificial-intelligence-and-in-humans), **revealed only 13% of the large companies surveyed said they are taking steps to mitigate risks to equity and fairness, such as algorithmic bias and discrimination.**
+
+## 5. Interpretability and Explainable AI
+
+First of all, **Interpretability and Explainability is essential for users, both business leaders and end-users, to understand why a decision is made so that they can trust a model and detect potential biases as mentioned above**. Second, it’s important for Machine Learning engineers and developers to debug and improve a model.
+
+Since most ML research is still evaluated on a single objective like model performance, researchers aren’t incentivized to work on model interpretability and explainability. However, *Interpretability isn’t just optional for most ML use cases in the industry, but a requirement.*
+
+Just because Interpretability is a requirement doesn’t mean everyone is doing it. According to [Stanford](https://hai.stanford.edu/research/ai-index-2019), as of 2019, only **19% of large companies are working to improve the explainability of their algorithms.**
+ 
