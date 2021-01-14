@@ -7,7 +7,7 @@ image:
   # placement: 3
   # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
-## Machine Learning Production Vs Machine Learning Research
+# Machine Learning Production Vs Machine Learning Research
 
 
 Most people who are experts in Machine Learning gained their experience through academia: taking courses, doing research and reading research papers. 
@@ -64,3 +64,24 @@ Since most ML research is still evaluated on a single objective like model perfo
 
 Just because Interpretability is a requirement doesn’t mean everyone is doing it. According to [Stanford](https://hai.stanford.edu/research/ai-index-2019), as of 2019, only **19% of large companies are working to improve the explainability of their algorithms.**
  
+# Machine Learning Vs Software Engineering
+
+Software Engineering (SWE) and best practices have been successfully used in the production environment for more than 50 years now. Since Machine Learning (ML) is a part of Sofware Engineering, some of you might think, why don't we just the best practices in Software Engineering and use that in Machine Learning?
+
+Well, that's an *outstanding idea*. To be honest, ML Production would be way easier if ML experts are better Software Engineers. Still, both ML experts and Software Engineers are specialists in different areas. **ML experts** are *strong in statistical thinking, modelling techniques, feature engineering, etc*. At the same time, **Software specialists** are good at *building products, scalability and maintenance, etc*. Well, it's rare to find an expert in both ML and Software. But we can definitely use the best practices from both industries to build a stable ML product.
+
+Many traditional SWE tools can be used to develop and deploy ML applications. However, **many challenges are unique to ML applications and require their own tools**. **In SWE, there's an underlying assumption that code and data are separated**. *In fact, in SWE, we want to keep things as modular and separate as possible.*
+
+On the contrary, **ML systems are part code, part data. The last ten years trend shows that applications developed with the most/best data win (OpenAI's GPT3 and DALL-E).** Instead of focusing on improving ML algorithms, most companies will focus on improving their data. Because data can change quickly,*ML applications need to be adaptive to the changing environment, requiring faster development and deployment cycles.*
+
+*In traditional SWE, you only need to focus on testing and versioning your code. With ML, we have to test and version our data too, which's the hard part. How to version large datasets? How to know if a data sample is good or bad for your system? Not all data samples are equal -- some are more valuable to your model than others.*
+
+*The size of ML models gives another challenge.* As of 2020, it's common for ML models to have hundreds of millions, if not billions, of parameters, which requires GBs of RAM and GPU to load them into memory. A few years from now, a billion parameters might seem normal.
+
+*Monitoring and debugging these models in production is also non-trivial*. As ML models get more complex, coupled with the lack of visibility into their work, it’s hard to figure out what went wrong or be alerted quickly enough when things go wrong.
+
+Now, enough about the differences in ML and SWE. The good news is that these engineering challenges are being tackled at a tremendous pace. In 2018, when BERT first came out, people talked about how BERT was too big, too complex, and too slow to be practical. In 2021, BERT is just a few  lines of code with efficient libraries and almost used in every Natural Language Processing (NLP) tasks.
+
+How can we also use these techniques in our day to day life and build models into production at ease? Here are some of the problems facing ML production and we might want to think about?
+
+
