@@ -1,46 +1,33 @@
 ---
-title: Deep Learning in HealthCare and its Practical Limitations
-event: AISC
-event_url: https://ai.science
+title: Example Talk
+event: Academic Theme Conference
+event_url: https://example.org
 
-location: Virtual Talk
+location: Source Themes HQ
 address:
-  street: 
-  city: Toronto
-  region: ON
-  postcode: 
-  country: Canada
+  street: 450 Serra Mall
+  city: Stanford
+  region: CA
+  postcode: '94305'
+  country: United States
 
-summary: This talk talks about the promise of Deep Learning in Healthcare and its practial limitations. What are the gaps between academic research and prodcution level code and How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?
-abstract: "Machine learning uses statistical techniques to give computer systems the ability to "learn" with incoming data and to identify patterns and make decisions with minimal human direction. Armed with such targeted analytics, doctors may be better able to assess risk, make correct diagnoses, and offer patients more effective treatments. Deep Learning has a lot of potential in Healthcare. But why don't these techniques are adopted in hospitals yet? 
-What are the gaps between academic research and production level code in Deep Learning and Healthcare?
-How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?
-
-What was discussed?
-- History of Deep Learning
-- Why DeepLearing for Healthcare
-- Practical Limitations
-- Gap betweeb Research and Production
-- Data Agumentation
-- Synthetic Data
-- Pretraining
-- Deep Learning as a Systemic Engineering
-- Machine Learning Lifecycle and Infrastructure"
+summary: An example talk using Academic's Markdown slides feature.
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-01-20T19:30:00Z"
-date_end: "2021-01-20T20:30:00Z"
+date: "2030-06-01T13:00:00Z"
+date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2017-01-01T00:00:00Z"
 
-authors: [Karthik Bhaskar]
-tags: [Deep Learning, HealthCare]
+authors: []
+tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
@@ -50,18 +37,18 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/kbhaskar_95
+  url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: "https://firebasestorage.googleapis.com/v0/b/central-splice-231701.appspot.com/o/event-slides%2FDeep%20Learning%20in%20Healthcare%20and%20Its%20Practical%20Limitations%20(1).pdf?alt=media&token=f93fbaff-d6bb-404e-9f57-cdd613908fcb"
-url_slides: "https://firebasestorage.googleapis.com/v0/b/central-splice-231701.appspot.com/o/event-slides%2FDeep%20Learning%20in%20Healthcare%20and%20Its%20Practical%20Limitations%20(1).pdf?alt=media&token=f93fbaff-d6bb-404e-9f57-cdd613908fcb"
-url_video: "https://www.youtube.com/watch?v=Gp9WqvpI0mE"
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+slides: example
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -69,11 +56,20 @@ slides: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- []
+- internal-project
 
 # Enable math on this page?
 math: true
 ---
 
+{{% alert note %}}
+Click on the **Slides** button above to view the built-in slides feature.
+{{% /alert %}}
 
+Slides can be added in a few ways:
 
+- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
