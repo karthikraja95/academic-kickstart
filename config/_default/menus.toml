@@ -38,6 +38,11 @@
   name = "Blog"
   url = "#posts"
   weight = 70
+  
+[[main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/cv.pdf` and uncomment the lines below.
