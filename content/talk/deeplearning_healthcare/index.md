@@ -1,17 +1,17 @@
 ---
-title: Example Talk
-event: Academic Theme Conference
-event_url: https://example.org
+title: Deep Learning in HealthCare and its Practical Limitations
+event: AISC
+event_url: https://ai.science
 
-location: Source Themes HQ
+location: Virtual Talk
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: 
+  city: Toronto
+  region: ON
+  postcode: ''
+  country: Canada
 
-summary: An example talk using Academic's Markdown slides feature.
+summary: This talk talks about the promise of Deep Learning in Healthcare and its practial limitations. What are the gaps between academic research and prodcution level code and How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
@@ -30,7 +30,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ''
   focal_point: Right
 
 links:
