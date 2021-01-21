@@ -21,18 +21,18 @@ abstract: "Machine learning uses statistical techniques to give computer systems
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2021-01-20T19:30:00Z"
+# date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+# publishDate: "2017-01-01T00:00:00Z"
 
-authors: []
-tags: []
+authors: [Karthik Bhaskar]
+tags: [Deep Learning, Healthcare]
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
   caption: ''
@@ -42,18 +42,18 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/georgecushen
+  url: https://twitter.com/kbhaskar_95
 url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+url_pdf: "https://firebasestorage.googleapis.com/v0/b/central-splice-231701.appspot.com/o/event-slides%2FDeep%20Learning%20in%20Healthcare%20and%20Its%20Practical%20Limitations%20(1).pdf?alt=media&token=f93fbaff-d6bb-404e-9f57-cdd613908fcb"
+url_slides: "https://firebasestorage.googleapis.com/v0/b/central-splice-231701.appspot.com/o/event-slides%2FDeep%20Learning%20in%20Healthcare%20and%20Its%20Practical%20Limitations%20(1).pdf?alt=media&token=f93fbaff-d6bb-404e-9f57-cdd613908fcb"
+url_video: "https://www.youtube.com/watch?v=Gp9WqvpI0mE"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -61,7 +61,7 @@ slides: example
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- internal-project
+- []
 
 # Enable math on this page?
 math: true
