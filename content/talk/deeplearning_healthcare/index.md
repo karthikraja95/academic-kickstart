@@ -13,9 +13,7 @@ location: Virtual Talk
 
 summary: This talk talks about the promise of Deep Learning in Healthcare and its practial limitations. What are the gaps between academic research and prodcution level code and How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?
 
-abstract: "Machine learning uses statistical techniques to give computer systems the ability to "learn" with incoming data and to identify patterns and make decisions with minimal human direction. Armed with such targeted analytics, doctors may be better able to assess risk, make correct diagnoses, and offer patients more effective treatments. Deep Learning has a lot of potential in Healthcare. But why don't these techniques are adopted in hospitals yet? 
-What are the gaps between academic research and production level code in Deep Learning and Healthcare?
-How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?"
+abstract: " This is my abstract"
 
 
 
