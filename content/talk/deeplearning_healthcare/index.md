@@ -4,12 +4,12 @@ event: AISC
 event_url: https://ai.science
 
 location: Virtual Talk
-address:
-  street: 
-  city: Toronto
-  region: ON
-  postcode: 
-  country: Canada
+# address:
+#  street: 
+#  city: Toronto
+#  region: ON
+#  postcode: 
+#  country: Canada
 
 summary: This talk talks about the promise of Deep Learning in Healthcare and its practial limitations. What are the gaps between academic research and prodcution level code and How can we mitigate this production level gap in Deep Learning and Healthcare, and what are some of the tools and techniques we can deploy?
 abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
