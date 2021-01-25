@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   * Worked on a project at the intersection of Computational Biology, Deep Learning and Natural Language Processing.
   * Applied Self Supervised Learning, Weak Supervision and Data Programming on MIMIC III database.
   * Built Transformer based architecture model to improve the accuracy of massively multi-task classification problem.
-  * Designed and built a DL model to predict the COVID-19 cases in [XPrize's Pandemic Response Challenge](https://pop.xprize.org/Prizes/PrizeDetails?codename=pandemic_response_challenge) and secured 16th place out of 250 teams participated in this challenge across worldwide.
+  * Our Team [BeatCovid](https://pop.xprize.org/Teams/TeamProfile?TeamID=4296) designed and built a DL model to predict the COVID-19 cases across worldwide in [XPrize's Pandemic Response Challenge](https://pop.xprize.org/Prizes/PrizeDetails?codename=pandemic_response_challenge) and secured 16th place out of 250 teams participated in this challenge worldwide.
 
   """
 [[experience]]
