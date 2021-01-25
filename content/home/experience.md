@@ -24,12 +24,13 @@ date_format = "Jan 2006"
   company_url = "https://vectorinstitute.ai/"
   location = "Toronto"
   date_start = "2020-08-15"
-  date_end = ""
+  date_end = "2021-01-26"
   description = """
   * [WangLab](https://wanglab.ml/) is affiliated with [Vector Institute](https://vectorinstitute.ai/) and [University Health Network](https://uhn.ca) - Advised by [Bo Wang](https://vectorinstitute.ai/team/bo-wang/)
-  * Currently working on a project at the intersection of Computational Biology, Deep Learning and Natural Language Processing.
-  * Applying Self Supervised Learning, Weak Supervision and Data Programming on MIMIC III database.
-  * Building Transformer based architecture model to improve the accuracy of massively multi-task classification problem.
+  * Worked on a project at the intersection of Computational Biology, Deep Learning and Natural Language Processing.
+  * Applied Self Supervised Learning, Weak Supervision and Data Programming on MIMIC III database.
+  * Built Transformer based architecture model to improve the accuracy of massively multi-task classification problem.
+  * Designed and built a DL model to predict the COVID-19 cases in [XPrize's Pandemic Response Challenge](https://pop.xprize.org/Prizes/PrizeDetails?codename=pandemic_response_challenge) and secured 16th place out of 250 teams participated in this challenge across worldwide.
 
   """
 [[experience]]
