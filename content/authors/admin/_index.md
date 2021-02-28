@@ -22,7 +22,7 @@ bio: Machine Learning Researcher | Software Engineer | Vector Institute | Univer
 
 interests:
 - Deep Learning
-- Private Preserved Trustworthy Machine Learning
+- Privacy Preserved Trustworthy Machine Learning
 - Deep Reinforcement Learning
 - Natural Language Processing
 - Recommendation Systems
