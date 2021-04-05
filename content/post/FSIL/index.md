@@ -60,6 +60,8 @@ Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org
 
 The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. 
 
+## Architecture Overview
+
 ![Incremental Few-Shot Learning with Attention Attractor Networks ](Attention_Attractor_Networks.PNG)
 
 > The proposed attention attractor network for incremental few-shot learning. During
