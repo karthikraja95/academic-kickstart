@@ -22,3 +22,14 @@ Incremental Learning refers to a family of scalable algorithms that learn to seq
 
 
 ## Dynamic Few-Shot Visual Learning without Forgetting
+
+Most prior research methods neglected two essential characteristics of few-shot learning:
+
+- Learning of novel categories (new categories that are not available during training time) needs to be fast
+- Do not sacrifice any recognition accuracy on the base categories (the initial categories the model was trained on) 
+
+
+This work, Dynamic Few-Shot Visual Learning without Forgetting motivated based on the above shortcoming, developed an object recognition learning model that not only able to recognize the base categories but also dynamically learns to recognize the novel categories from only a few training samples (usually 1 to 5 ).  The authors achieved state-of-the-art results on few-shot learning by proposing :
+
+- An Attention based few-shot classification weight generator
+- Implement ConvNet classifier Model as a cosine similarity (instead of dot product) function between feature representations and classification vectors. 
