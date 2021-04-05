@@ -34,6 +34,8 @@ This work, Dynamic Few-Shot Visual Learning without Forgetting motivated based o
 - An Attention based few-shot classification weight generator
 - Implement ConvNet classifier Model as a cosine similarity (instead of dot product) function between feature representations and classification vectors. 
 
+## Overiew of Dynamic Few-Shot Visual Learning without Forgetting 
+
 ![Dynamic Few-Shot Visual Learning without Forgetting](Dynamic-Few-Shot.PNG)
 
 > Overview of our system. It consists of: (a) a ConvNet based recognition model (that includes a feature extractor and a classifier)
@@ -41,3 +43,14 @@ and (b) a few-shot classification weight generator. Both are trained on a set of
 training data. During test time, the weight generator gets as input a few training data of a novel category and the classification weight
 vectors of base categories (green rectangle inside the classifier box) and generates a classification weight vector for this novel category (blue
 rectangle inside the classifier box). This allows the ConvNet to recognize both base and novel categories.
+
+## Observations:
+
+- Few-Shot Learning is not feasible with a typical dot-product-based Classifier because we need to train both base and novel categories separately. On the other hand, Cosine-Similarity based Classifier unified the learning process of both base and novel categories.
+- Cosine-Similarity based Classifier leads the feature extractor to learn features that generalize significantly better on novel categories than features learned with the dot-product based Classifier.
+- Thanks to the Cosine-Similarity based Classifier, the base classification weight vectors learn to be representative feature vectors of their categories. Thus, the base classification weight vectors also encode visual similarity. 
+- Using an attention-based weight composition, the classification weight vector of a novel category can be composed as a linear combination of those base classification weight vectors that are most similar to the few training examples of that category. Attention-based weight composition allows our few-shot weight generator to explicitly exploit the acquired knowledge about the visual word (here represented by the base classification weight vectors) to improve the few-shot recognition performance. 
+
+
+Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org/pdf/1804.09458.pdf) for detailed methodology, results and comparisons.
+
