@@ -1,3 +1,13 @@
+---
+title: "Few Shot Incremental Learning"
+date: 2021-01-114
+math: true
+diagram: true
+image:
+  # placement: 3
+  # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+---
+
 Few-Shot Incremental Learning (FSIL)
 
 What is Few Shot Learning?
