@@ -1,5 +1,5 @@
 ---
-title: "Few Shot Incremental Learning (FSIL)"
+title: "Few-Shot Incremental Learning (FSIL)"
 date: 2021-01-114
 math: true
 diagram: true
