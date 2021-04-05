@@ -59,3 +59,16 @@ Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org
 
 
 The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. 
+
+![Incremental Few-Shot Learning with Attention Attractor Networks ](Attention_Attractor_Networks.PNG)
+
+> The proposed attention attractor network for incremental few-shot learning. During
+pretraining we learn the base class weights Wa and the feature extractor CNN backbone. In the
+meta-learning stage, a few-shot episode is presented. The support set only contains novel classes,
+whereas the query set contains both base and novel classes. We learn an episodic classifier network
+through an iterative solver, to minimize cross entropy plus an additional regularization term predicted
+by the attention attractor network by attending to the base classes. The attention attractor network is
+meta-learned to minimize the expected query loss. During testing an episodic classifier is learned in
+the same way.
+
+
