@@ -1,5 +1,5 @@
 ---
-title: "Few-Shot Incremental Learning (FSIL)"
+title: "Incremental Few-Shot Learning (IFSL)"
 date: 2021-01-114
 math: true
 diagram: true
@@ -18,7 +18,7 @@ The human visual system exhibits the remarkable ability to effortlessly learn no
 
 Incremental Learning refers to a family of scalable algorithms that learn to sequentially update models from infinite data streams. Whereas in “traditional” machine learning, we’re given a complete dataset consisting of (input, output) pairs, in Incremental Learning, we don’t have all of the data available when creating the model. Instead, the data points arrive one at a time, and we have to build a “living” model, one that learns and adapts as the data comes. 
 
-*The aim of the article to understand the state of the art techniques in Few-Shot Incremental Learning (FSIL)*
+*The aim of the article to understand the state of the art techniques in Incremental Few-Shot  Learning (IFSL)*
 
 
 ## Dynamic Few-Shot Visual Learning without Forgetting
