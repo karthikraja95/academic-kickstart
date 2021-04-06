@@ -21,7 +21,7 @@ Incremental Learning refers to a family of scalable algorithms that learn to seq
 *The aim of the article to understand the state of the art techniques in Incremental Few-Shot  Learning (IFSL)*
 
 
-## Dynamic Few-Shot Visual Learning without Forgetting
+## Dynamic Few-Shot Visual Learning without Forgetting (CVPR 2018)
 
 Most prior research methods neglected two essential characteristics of few-shot learning:
 
@@ -55,7 +55,7 @@ rectangle inside the classifier box). This allows the ConvNet to recognize both 
 Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org/pdf/1804.09458.pdf) for detailed methodology, results and comparisons.
 
 
-## Incremental Few-Shot Learning with Attention Attractor Networks 
+## Incremental Few-Shot Learning with Attention Attractor Networks (NIPS 2019)
 
 
 The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. During each few-shot episode, we directly learn a classifier network that is randomly initialized and solved till convergence, unlike Dynamic Few-Shot Visual Learning without Forgetting which directly outputs the prediction. 
@@ -91,3 +91,4 @@ Incremental Few-Shot Learning with Attention Attractor Networks has several stag
 > In short, the authors proposed an **Attention Attractor Network** model, which regulates a per-episode training objective by attending to the set of base classes. The authors showed that the *meta-learning iterative model solves the few-shot objective until convergence is better than baselines that do one-step inference*. They also showed *recurrent back-propagation is an effective and modular tool for learning in a general meta-learning setting*, whereas truncated back-propagation through time fails to learn functions that converge well.
 
 
+## XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning (ICML 2020)
