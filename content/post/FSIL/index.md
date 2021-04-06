@@ -151,3 +151,6 @@ NG grows for new class y by inserting a new vertex v˜7. A new class training sa
 (e) The min-max loss term adapts F7 by pushing ˜f to v˜7 and pulling v˜7 away from the neighbors v4, v5 and v6. (f) The topology is updated
 after the adaptation in (e), where v˜7 has been moved to v7, and the connection between v4 and v7 is removed due to expired age.
 
+Refer to [Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2004.10956.pdf) for detailed methodology, results and comparisons.
+
+## Incremental Few-Shot Learning via Vector Quantization in Deep Embedding Space (ICLR 2021)
