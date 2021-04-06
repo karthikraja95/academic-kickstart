@@ -160,3 +160,24 @@ after the adaptation in (e), where v˜7 has been moved to v7, and the connection
 Refer to [Few-Shot Class-Incremental Learning](https://arxiv.org/pdf/2004.10956.pdf) for detailed methodology, results and comparisons.
 
 ## Incremental Few-Shot Learning via Vector Quantization in Deep Embedding Space (ICLR 2021)
+
+The authors proposed a **nonparametric method to handle incremental few-shot learning based on Learning Vector Quantization (LVQ).**  By doing this, the adverse effects of imbalanced weights in a parametric classifier can be avoided entirely. 
+
+### Learning Vector Quantization (LVQ)
+
+>  LVQ is a classical data compression method that represents knowledge through a few learned reference vectors. A new sample is classified to the same label as the nearest reference vector in the input space.
+
+> LVQ has been combined with deep feature extractors as an alternative to standard neural networks for better interpretability.
+
+LVQ is a nonparametric method that is well suited for incremental few-shot learning because the model capacity grows by incorporating more reference vectors to learn new knowledge. For example, Incremental Learning Vector Quantization (ILVQ) has been developed to learn classification models adaptively from raw features. The proposed method does not rely on predefined rules to update reference vectors and can be learned along with deep neural networks in an end-to-end fashion.
+
+### Incremental Deep Learning Vector Quantization (IDLVQ)
+
+The general framework of IDLVQ for both classification and regression can be derived from a [Gaussian Mixture](https://www.cse.iitk.ac.in/users/piyush/courses/pml_winter16/IncompleteDataEM.pdf) perspective, with a **simplified covariance structure and supervised deep representation learning**. The proposed IDLVQ is a *nonparametric method as it makes a prediction based on similarity to reference vectors instead of using any regression or classification weights. The model's capacity grows naturally by adding more reference vectors to learn novel tasks, while the old knowledge is preserved in existing reference vectors.*
+
+### Contributions
+- A unified framework is developed, termed incremental deep learning vector quantization (IDLVQ), to handle both incremental classification (IDLVQ-C) and regression (IDLVQ-R) problems.
+- Developed intra-class variance regularization, less forgetting constraints and calibration factors to mitigate catastrophic forgetting in class-incremental learning
+- The proposed methods achieve state-of-the-art performance on incremental few-shot classification and regression datasets. 
+
+Refer to [Incremental Few-Shot Learning via Vector Quantization in Deep Embedding Space](https://openreview.net/pdf?id=3SV-ZePhnZM) for detailed methodology, results and comparisons.
