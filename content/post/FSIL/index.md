@@ -120,8 +120,34 @@ The authors proposed Xtar-Net, which learns to construct novel representation wi
 
 The authors address Few-Shot Class-Incremental Learning  (FSCIL) from a novel, cognitive-inspired perspective of Knowledge Representation. *Recent discoveries in cognitive science reveal the importance of topology preservation for maintaining the memory of the old knowledge. The change of the memory's topology will cause severe degradation of human recognition performance on historical visual stimuli, indicating catastrophic forgetting*. Typically **[Knowledge Distillation](https://arxiv.org/pdf/1503.02531.pdf)** was used to mitigate Castostropic Forgetting problem. 
 
-The authors presented  **TOpology-Preserving knowledge InCrementer (TOPIC)**. TOPIC uses a **[Neural Gas (NG) network](https://papers.nips.cc/paper/1994/file/d56b9fc4b0f1be8871f5e1c40c0067e7-Paper.pdf)** to model the topology of feature space. When learning the new classes, NG grows to adapt to the change of feature space. NG maps the feature space to a finite set of feature vectors (F) and preserves the topology of F by **competitive Hebbian learning**. The authors formulated FSCIL as an optimization problem with two objectives.
+The authors presented  **TOpology-Preserving knowledge InCrementer (TOPIC)**. TOPIC uses a **[Neural Gas (NG) network](https://papers.nips.cc/paper/1994/file/d56b9fc4b0f1be8871f5e1c40c0067e7-Paper.pdf)** to model the topology of feature space. When learning the new classes, NG grows to adapt to the change of feature space. NG maps the feature space to a finite set of feature vectors (F) and preserves the topology of F by **competitive Hebbian learning**.
+
+![FSCIL1](FSCIL1.PNG)
+
+> **Comparisons of two ways to characterize a heterogenous manifold.** (a) Randomly sampled representatives, which are
+adopted by conventional CIL studies for knowledge distillation.
+(b) The representatives learned by neural gas, which well preserves the topology of the manifold.
+
+![FSCIL2](FSCIL2.PNG)
+
+> **NG preserves the topology of heterogenous feature
+space manifold.** Initially, NG is learnt for base classes (the blue
+dots and lines.) Then NG incrementally grows for new classes by
+inserting new nodes and edges (the orange dots and lines.) During the competitive Hebbian learning, v_j ’s centroid vector m_j is
+adapted to the input vector f which falls in F_j encoded by v_j .
+
+The authors formulated FSCIL as an optimization problem with two objectives.
 
 - **Avoid catastrophic forgetting**; TOPIC preserves the old knowledge by stabilizing the topology of NG, which is implemented with an **[Anchor Loss (AL)](https://openaccess.thecvf.com/content_ICCV_2019/papers/Ryou_Anchor_Loss_Modulating_Loss_Scale_Based_on_Prediction_Difficulty_ICCV_2019_paper.pdf)** term.
-- **Prevent overfitting to few-shot new classes**; TOPIC adapt the feature space by pushing the new class training sample towards a correct new NG node with the same label and pulling the new nodes of different labels away from each other. The min-max loss (MML) term is developed to achieve this purpose.
+- **Prevent overfitting to few-shot new classes**; TOPIC adapt the feature space by pushing the new class training sample towards a correct new NG node with the same label and pulling the new nodes of different labels away from each other. The **min-max loss (MML)** term is developed to achieve this purpose.
+
+![FSCIL3](FSCIL3.PNG)
+> **Explanation of NG stabilization and adaptation.** (a) NG divides CNN’s feature space F into a set of topologically arranged
+subregions Fj represented by a centroid vector vj . (b) When finetuning CNN with few training examples, F’s topology is severely
+distorted, indicating catastrophic forgetting. (c) To maintain the topology, the shift of NG nodes is penalized by the anchor-loss term. (d)
+NG grows for new class y by inserting a new vertex v˜7. A new class training sample ˜f is mismatched to v5, due to d(
+˜f, m5) < d(
+˜f, m7).
+(e) The min-max loss term adapts F7 by pushing ˜f to v˜7 and pulling v˜7 away from the neighbors v4, v5 and v6. (f) The topology is updated
+after the adaptation in (e), where v˜7 has been moved to v7, and the connection between v4 and v7 is removed due to expired age.
 
