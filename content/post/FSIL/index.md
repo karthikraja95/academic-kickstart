@@ -34,7 +34,7 @@ This work, Dynamic Few-Shot Visual Learning without Forgetting motivated based o
 - An Attention based few-shot classification weight generator
 - Implement ConvNet classifier Model as a cosine similarity (instead of dot product) function between feature representations and classification vectors. 
 
-## Architecture Overview
+### Architecture Overview
 
 ![Dynamic Few-Shot Visual Learning without Forgetting](Dynamic-Few-Shot.PNG)
 
@@ -44,7 +44,7 @@ training data. During test time, the weight generator gets as input a few traini
 vectors of base categories (green rectangle inside the classifier box) and generates a classification weight vector for this novel category (blue
 rectangle inside the classifier box). This allows the ConvNet to recognize both base and novel categories.
 
-## Observations:
+### Observations:
 
 - Few-Shot Learning is not feasible with a typical dot-product-based Classifier because we need to train both base and novel categories separately. On the other hand, Cosine-Similarity based Classifier unified the learning process of both base and novel categories.
 - Cosine-Similarity based Classifier leads the feature extractor to learn features that generalize significantly better on novel categories than features learned with the dot-product based Classifier.
@@ -60,7 +60,7 @@ Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org
 
 The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. During each few-shot episode, we directly learn a classifier network that is randomly initialized and solved till convergence, unlike Dynamic Few-Shot Visual Learning without Forgetting which directly outputs the prediction. 
 
-## Architecture Overview
+### Architecture Overview
 
 ![Incremental Few-Shot Learning with Attention Attractor Networks ](Attention_Attractor_Networks.PNG)
 
@@ -83,11 +83,11 @@ Incremental Few-Shot Learning with Attention Attractor Networks has several stag
 
 > Join Prediction Loss and Attention Attractore Networks Regularizer details are explained clearly in the [Incremental Few-Shot Learning with Attention Attractor Networks](https://arxiv.org/pdf/1810.07218.pdf) paper. 
 
-## Algorithm 
+### Algorithm 
 
 ![Algorithm](Algo.PNG)
 
-## Summary 
+### Summary 
 > In short, the authors proposed an **Attention Attractor Network** model, which regulates a per-episode training objective by attending to the set of base classes. The authors showed that the *meta-learning iterative model solves the few-shot objective until convergence is better than baselines that do one-step inference*. They also showed *recurrent back-propagation is an effective and modular tool for learning in a general meta-learning setting*, whereas truncated back-propagation through time fails to learn functions that converge well.
 
 
@@ -105,16 +105,16 @@ The authors proposed Xtar-Net, which learns to construct novel representation wi
 
  TAR can be used in conjunction with known incremental few-shot learning methods like CVPR 2018 or NIPS 2019 and can achieve significant performance gains. The authors use [TapNet](https://arxiv.org/pdf/1905.06549.pdf), which is a relatively simple but effective few-shot learning method. TapNet utilizes meta-learned perclass reference vectors for classification in a task-adaptive projection space.
  
- ## Architecture Overview
+ ### Architecture Overview
 
 ![XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning](ICML_Overview.PNG)
 
 > Overiew is clearly explained in the [XtarNet](https://arxiv.org/pdf/2003.08561.pdf) paper. Please read it for details
 
-## Task-Adaptive Projection for Few-Shot Learning Algorithm
+### Task-Adaptive Projection for Few-Shot Learning Algorithm
 
 ![TapNet Algorithm](TapNet.PNG)
 
 
-
+## Few-Shot Class-Incremental Learning (CVPR 2020)
 
