@@ -92,3 +92,15 @@ Incremental Few-Shot Learning with Attention Attractor Networks has several stag
 
 
 ## XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning (ICML 2020)
+
+The above-mentioned CVPR 2018 and NIPS 2019 paper focused on extracting a fixed representation from the pretrained backbone rather than exploring novel representations that could be task-adaptive. The authors' main motivation is to pursue novel knowledge from new experience and merge it with prior knowledge learned from previous experience. 
+
+The authors proposed Xtar-Net, which learns to construct novel representation with informative features to classify both base and novel categories. In addition to a pretrained feature extractor like the CVPR 2018 and NIPS 2019 paper, Xtar-Net method employs extra modules that are meta-trained across varying episodes to accomplish the following:
+
+- Built on a pretrained model, the proposed method XtarNet employs three essential modules that are meta-trained.
+- For a given new task, XtarNet extracts novel features that the pretrained backbone cannot capture. 
+- The novel feature is then combined with the base feature captured by the backbone
+- The mixture of these features constructs Task-Adaptive Representation (TAR), facilitating incremental few-shot learning.
+- The base and novel classifier quickly adapt to the given task by utilizing TAR.
+
+ TAR can be used in conjunction with known incremental few-shot learning methods like CVPR 2018 or NIPS 2019 and can achieve significant performance gains. 
