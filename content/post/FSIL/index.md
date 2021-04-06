@@ -34,7 +34,7 @@ This work, Dynamic Few-Shot Visual Learning without Forgetting motivated based o
 - An Attention based few-shot classification weight generator
 - Implement ConvNet classifier Model as a cosine similarity (instead of dot product) function between feature representations and classification vectors. 
 
-## Overiew of Dynamic Few-Shot Visual Learning without Forgetting 
+## Architecture Overview
 
 ![Dynamic Few-Shot Visual Learning without Forgetting](Dynamic-Few-Shot.PNG)
 
