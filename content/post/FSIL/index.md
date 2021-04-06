@@ -103,10 +103,16 @@ The authors proposed Xtar-Net, which learns to construct novel representation wi
 - The mixture of these features constructs Task-Adaptive Representation (TAR), facilitating incremental few-shot learning.
 - The base and novel classifier quickly adapt to the given task by utilizing TAR.
 
- TAR can be used in conjunction with known incremental few-shot learning methods like CVPR 2018 or NIPS 2019 and can achieve significant performance gains. 
+ TAR can be used in conjunction with known incremental few-shot learning methods like CVPR 2018 or NIPS 2019 and can achieve significant performance gains. The authors use [TapNet](https://arxiv.org/pdf/1905.06549.pdf), which is a relatively simple but effective few-shot learning method. TapNet utilizes meta-learned perclass reference vectors for classification in a task-adaptive projection space.
  
  ## Architecture Overview
 
 ![XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning](ICML_Overview.PNG)
+
+> Overiew is clearly explained in the [XtarNet](https://arxiv.org/pdf/2003.08561.pdf) paper. Please read it for details
+
+## Task-Adaptive Projection for Few-Shot Learning Algorithm
+
+
 
 
