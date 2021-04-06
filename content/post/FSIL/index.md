@@ -113,6 +113,8 @@ The authors proposed Xtar-Net, which learns to construct novel representation wi
 
 ## Task-Adaptive Projection for Few-Shot Learning Algorithm
 
+![TapNet Algorithm](TapNet.PNG)
+
 
 
 
