@@ -58,7 +58,7 @@ Refer to [Dynamic Few-Shot Visual Learning without Forgetting](https://arxiv.org
 ## Incremental Few-Shot Learning with Attention Attractor Networks 
 
 
-The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. 
+The authors presented a novel method for incremental few-shot learning where during meta-learning, the authors optimized a regularizer that reduces catastrophic forgetting from the incremental few-shot learning. The proposed regularizer is inspired by [attractor networks](http://proceedings.mlr.press/v80/liao18c/liao18c.pdf) and can be thought of as a memory of the base classes, adapted to the new classes. They also showed how this regularizer could be optimized, using [recurrent back-propagation](https://home.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/ZemelMozer2001.pdf) to back-propagate through the few-shot optimization stage. During each few-shot episode, we directly learn a classifier network that is randomly initialized and solved till convergence, unlike Dynamic Few-Shot Visual Learning without Forgetting which directly outputs the prediction. 
 
 ## Architecture Overview
 
@@ -73,4 +73,13 @@ by the attention attractor network by attending to the base classes. The attenti
 meta-learned to minimize the expected query loss. During testing an episodic classifier is learned in
 the same way.
 
+Incremental Few-Shot Learning with Attention Attractor Networks has several stages: 
+
+- **Pre-training stage**: We learn a base model for the regular supervised classification task on the dataset. The purpose of this stage is to learn both a good base classifier and a good representation. The parameters of the base classifier are learned in this stage and will be fixed after pre-training.
+
+- **Incremental Few-Short Episodes**: A few-shot dataset can be the same data source as the pre-training dataset but sampled episodically from which we can sample few-shot learning episodes. In each episode, we learn a classifier on the support set whose learnable parameters are called the fast weights, as they are only used during this episode.
+
+- **Metra-Learning Stage**: The authors iteratively sample few-shot episodes and learn the meta-parameters to minimize the joint prediction loss*. In particular, we design a regularizer* using Attention Attractor Networks such that the fast weights are learned via minimizing the loss, which typically a cross-entropy loss for a few-shot classification.
+
+* *Join Prediction Loss and Attention Attractore Networks Regularizer details are explained clearly in the paper. *
 
