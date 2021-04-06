@@ -87,6 +87,7 @@ Incremental Few-Shot Learning with Attention Attractor Networks has several stag
 
 ![Algorithm](Algo.PNG)
 
-> In short, the authors proposed an **Attention Attractor Network** model, which regulates a per-episode training objective by attending to the set of base classes. The authors showed that the *meta-learning iterative model solves the few-shot objective until convergence is better than baselines that do one-step inference*. They also showed *recurrent back-propagation is an effective and modular tool for learning in a general meta-learning setting*. In contrast, truncated back-propagation through time fails to learn functions that converge well.
+## Summary 
+> In short, the authors proposed an **Attention Attractor Network** model, which regulates a per-episode training objective by attending to the set of base classes. The authors showed that the *meta-learning iterative model solves the few-shot objective until convergence is better than baselines that do one-step inference*. They also showed *recurrent back-propagation is an effective and modular tool for learning in a general meta-learning setting*, whereas truncated back-propagation through time fails to learn functions that converge well.
 
 
