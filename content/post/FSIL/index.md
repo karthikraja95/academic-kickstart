@@ -104,3 +104,9 @@ The authors proposed Xtar-Net, which learns to construct novel representation wi
 - The base and novel classifier quickly adapt to the given task by utilizing TAR.
 
  TAR can be used in conjunction with known incremental few-shot learning methods like CVPR 2018 or NIPS 2019 and can achieve significant performance gains. 
+ 
+ ## Architecture Overview
+
+![XtarNet: Learning to Extract Task-Adaptive Representation for Incremental Few-Shot Learning](ICML_Overview.PNG)
+
+
