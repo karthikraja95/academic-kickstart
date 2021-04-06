@@ -81,5 +81,5 @@ Incremental Few-Shot Learning with Attention Attractor Networks has several stag
 
 - **Metra-Learning Stage**: The authors iteratively sample few-shot episodes and learn the meta-parameters to minimize the joint prediction loss*. In particular, we design a regularizer* using Attention Attractor Networks such that the fast weights are learned via minimizing the loss, which typically a cross-entropy loss for a few-shot classification.
 
-* *Join Prediction Loss and Attention Attractore Networks Regularizer details are explained clearly in the paper. *
+*/*Join Prediction Loss and Attention Attractore Networks Regularizer details are explained clearly in the paper. *
 
