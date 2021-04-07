@@ -185,7 +185,7 @@ Refer to [Incremental Few-Shot Learning via Vector Quantization in Deep Embeddin
 
 ## Ideas for Future Work
 
-I found these following papers are interesting to extend the Incremental Few-Shot Learning research area. 
+I found these following papers are interesting to extend the work done on Incremental Few-Shot Learning research area. 
 
 
 - [iTAML : An Incremental Task-Agnostic Meta-learning Approach](https://arxiv.org/pdf/2003.11652.pdf)
