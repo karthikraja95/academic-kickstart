@@ -181,3 +181,18 @@ The general framework of IDLVQ for both classification and regression can be der
 - The proposed methods achieve state-of-the-art performance on incremental few-shot classification and regression datasets. 
 
 Refer to [Incremental Few-Shot Learning via Vector Quantization in Deep Embedding Space](https://openreview.net/pdf?id=3SV-ZePhnZM) for detailed methodology, results and comparisons.
+
+
+## Ideas for Future Work
+
+I found these following papers are interesting to extend the Incremental Few-Shot Learning research area. 
+
+
+- [iTAML : An Incremental Task-Agnostic Meta-learning Approach](https://arxiv.org/pdf/2003.11652.pdf)
+- [Semantic Drift Compensation for Class-Incremental Learning](https://arxiv.org/pdf/2004.00440.pdf)
+- [Overcoming Catastrophic Forgetting with Unlabeled Data in the Wild](https://arxiv.org/pdf/1903.12648.pdf)
+- [Memory-Efficient Incremental Learning Through
+Feature Adaptation
+](https://arxiv.org/pdf/2004.00713.pdf)
+
+I hope this article is somewhat informative and helpful!!!
