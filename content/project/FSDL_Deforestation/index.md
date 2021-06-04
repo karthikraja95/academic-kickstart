@@ -23,7 +23,7 @@ tags:
 external_link: 
 
 image:
-  filename: featured.gif
+  filename: featured.jpeg
   focal_point: Smart
   preview_only: false
  
