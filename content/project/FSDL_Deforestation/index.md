@@ -10,13 +10,14 @@ featured: false
 tags:
   - Deep Learning
   - Computer Vision
-  - PyTorch
+  - FastAI
   - StreamLit
   - Data FlyWheel
   - Out of Domain Shift Analysis
   - Google BigQuery
   - ResNet
   - Deployment
+  - MLOps
   
   
 external_link: 
@@ -35,25 +36,25 @@ links:
  
 ---
 
-## Abstract
+## Project Description
 
-This project discuss the transferability of state of the art defense techniques for adversarial examples for deep learning systems in the physical domain. The paper explores
-using adversarial attacks using the Fast Gradient Sign Method (FGSM), Carlini & Wagner (CW) and DeepFool attacks to generate adversarial images that are given to the classifier as
-a digital and physically transformed image. Furthermore, we present novel results demonstrating the effectiveness of the stateof-the-art Defense-GAN technique to create reconstructions of
-images, that have undergone the physical transformation, with a significant portion of the adversarial noise filtered out. We also show, that for finer adversarial attacks, that the physical transformation itself causes a high degree of adversarial destruction,
-bringing to question the need for additional defenses.
+A Deep Learning approach to detecting deforestation risk, using satellite images and a deep learning model. We relied on Planet imagery from two Kaggle datasets (one from the Amazon rainforest and another on oil palm plantations in Borneo) and trained a ResNet model using FastAI.
 
-## Adversarial Examples
+## Task and Results
 
-Attacks used to generated Physical Adversarila Examples
+- Trained a ResNet50 model on [FastAI](https://docs.fast.ai/), achieving 95.6% validation accuracy and results comparable to a Kaggle competition's top of the leaderboard.
+- Developed and deployed a dashboard using [Streamlit](https://streamlit.io/), which enables not only for interacting with our datasets and modeling results but also to test new images.
+- Set up a data infrastructure in [Google Cloud](https://cloud.google.com/), where we stored our labels, images and data collected from users.
+- Analyzed our model’s performance on out-of-domain data.
+- Structured and maintained our group's project management through a [Notion](https://www.notion.so/) [workspace](https://andrecnf.com/Homepage-2ff744c443814f459d80a6e5819226a5).
+- Published a [Medium article](https://andrecnf.com/Detecting-deforestation-from-satellite-images-3c83ad19879f4a0790efed8761f3c106) on [Towards Data Science](http://towardsdatascience.com/).
+- Got the web app featured at the top of [Streamlit's official weekly roundup](https://discuss.streamlit.io/t/weekly-roundup-rasalit-deforestation-detection-api-creators-and-more/13115).
+- Highlighted on [PyCoders weekly newsletter](https://pycoders.com/issues/475).
 
-- Fast Gradient Sign Method (FGSM) - [FGSM Code](https://github.com/karthikraja95/Tranferability_of_DEFENSE-GAN_to_Physical_Adversarial_Examples/blob/master/FGSM_automated.ipynb)
-- Carlini and Wagner (CW) - [CW Code](https://github.com/karthikraja95/Tranferability_of_DEFENSE-GAN_to_Physical_Adversarial_Examples/blob/master/CW_automated.ipynb)
-- DeepFool - [DeepFool Code](https://github.com/karthikraja95/Tranferability_of_DEFENSE-GAN_to_Physical_Adversarial_Examples/blob/master/DeepFool.ipynb)
+## Links
 
-## Experimentail Setup
+[Full Stack Deep Learning - Final Project Submission](https://github.com/karthikraja95/fsdl_deforestation_detection)
 
-- NVidia Tesla P4 -  8GB DDR5 GPU Memory 
-- 13 GB of RAM 
--  2 vCPUs
-- Logitech c922x Webcam
+[Short Video](https://www.loom.com/share/365d412db3a0474ba46d4fdd7f4c5494)
+
+[Detailed Report](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61)
