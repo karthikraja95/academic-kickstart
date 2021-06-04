@@ -53,8 +53,10 @@ A Deep Learning approach to detecting deforestation risk, using satellite images
 
 ## Links
 
-[Full Stack Deep Learning - Final Project Submission](https://github.com/karthikraja95/fsdl_deforestation_detection)
-
 [Short Video](https://www.loom.com/share/365d412db3a0474ba46d4fdd7f4c5494)
 
 [Detailed Report](https://towardsdatascience.com/detecting-deforestation-from-satellite-images-7aa6dfbd9f61)
+
+[Full Stack Deep Learning - Final Project Submission](https://github.com/karthikraja95/fsdl_deforestation_detection)
+
+[Full Stack Deep Learning - Certificate](https://verified.cv/en/verify/19693653086998)
